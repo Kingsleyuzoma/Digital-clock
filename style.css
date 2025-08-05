@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #121212;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.light {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+}
+
+#clock {
+    font-size: 3rem;
+    margin: 1rem 0;
+    
+}
+
+#timezone {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    margin: 5px;
+    padding: 8px 12px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+input[type="time"] {
+    padding: 5px;
+}
+
+.stopwatch-section {
+    margin-top: 2rem;
+}
